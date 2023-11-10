@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    background-image: url(https://media.discordapp.net/attachments/1103642314255106050/1172407908592521226/wp4714974-japan-aesthetic-wallpapers.jpg?ex=656034f3&is=654dbff3&hm=21f10c6cb880d4c8f17849ab36f991cec99816eaee49d659459225c001858816&=&width=676&height=423); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  header{
+    font-family: 'Popins', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-align:center;
+    color: white;
+  }
+
+  #container{
+    max-width: 1000px;
+     width: 50%;
+     margin: auto auto;
+  }
+  
+  #survey-form{
+    color: white;
+    font-family: 'Popins', sans-serif;
+    font-size: 1 rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0 auto 1.25rem auto;
+    padding: 1.25rem;
+  }
+  
+  form{
+    background-color: rgba(13, 6, 72, 0.684);
+    border-radius: 0.25 rem;
+  }
+
+  input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+  }
+
+  label{
+    display: flex;;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .form-control{
+    display: block;
+    width: 95%;
+    height: 2.375rem;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  .form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+fieldset{
+    max-width: 1000px;
+    padding: 5px;
+    margin: 0;
+    border: 0;
+}
+
+#comments-label{
+    flex-direction: column;
+    align-items: start;
+}
+
+textarea {
+    color: rgb(80, 79, 79);
+    min-height: 120px;
+    width: 100%;
+    padding: 0.0631rem;
+    resize: vertical;
+}
+
+#submit{
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: #51d82f;
+    color: inherit;
+    border-radius: 10px;
+    cursor: pointer;
+}

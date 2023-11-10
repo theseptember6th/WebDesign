@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Personal form</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <link rel="stylesheet" href="form.css"/>
+    </head>
+    <body>
+      <div id = "container">
+        <header>
+        <h1 id="title">Personal Survey Form</h1>
+        <p id="description">Your responses will help us know you better</p>
+        </header>
+
+        <form method="post" id="survey-form" action="'https://register-demo.freecodecamp.org">
+                <fieldset>      
+                    <label for="name" id="name-label"><legend>Enter your name:</legend>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="John Smith" required/>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label for="email" id="email-label"> <legend>Enter your Email:</legend>
+                        <input type="email" class="form-control" id="email" name="email"  placeholder="smithjohn@gmail.com" required/>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label for="number" id="number-label"> <legend>Enter your age:</legend>
+                        <input type="number" class="form-control" min="12" max="120" id="number" name="number" placeholder="Age"/>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Which subject you like the most?</legend>
+                    <label for="dropdown" id="select-label">
+                        <select id="dropdown" class="form-control">
+                            <option value="">Select a subject</option>
+                            <option value="1">Computer</option>
+                            <option value="2">Physics</option>
+                            <option value="3">Mathematics</option>
+                        </select>
+                    </label>    
+                </fieldset>
+                <fieldset>
+                    <legend>Select your Gender:</legend>
+                        <label for="male" id="male-label">
+                            <input type="radio" id="male" name="gender" value="male" checked/> Male
+                        </label>
+                        <label for="female" id="female-label">
+                            <input type="radio" id="female" name="gender" value="female"/> Female
+                        </label>
+                        <label for="other" id="other-label">
+                            <input type="radio" id="other" name="gender" value="other" /> Other
+                        </label>
+                </fieldset>
+                <fieldset>
+                    <legend>What are your hobbies?</legend>
+                    <label for="sports" id="sports-label">
+                        <input type="checkbox"  id="sports" name="hobbies" value="sports"/> Sports
+                    </label>
+                    <label for="programming" id="programming-label">
+                        <input type="checkbox" id="programming" name="hobbies" value="programming"/> Programming
+                    </label>
+                    <label for="designing" id="designing-label">
+                        <input type="checkbox" id="designing" name="hobbies" value="designing"/> Designing
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label for="comments" id="comments-label">
+                        Comments:
+                        <textarea id="comments" name="comments" > </textarea>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label for="submit" id="submit-label">
+                        <button id="submit">Submit</button>
+                    </label>
+                </fieldset>
+            </form> 
+         </div>
+    </body>
+</html>
